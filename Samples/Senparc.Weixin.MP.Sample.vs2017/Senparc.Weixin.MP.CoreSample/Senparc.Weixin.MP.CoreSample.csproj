@@ -12,12 +12,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <!--<None Remove=".dockerignore" />-->
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.2.0" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.0.2105168" />
+    <PackageReference Include="NewLife.XCode" Version="9.11.2019.510" />
     <PackageReference Include="Senparc.CO2NET" Version="0.8.1-preview1" />
     <PackageReference Include="Senparc.NeuChar.App" Version="0.4.1-preview1" />
     <PackageReference Include="System.Drawing.Common" Version="4.5.1" />
